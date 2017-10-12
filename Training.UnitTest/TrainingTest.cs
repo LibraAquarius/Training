@@ -9,7 +9,7 @@ namespace Training.UnitTest
 		[TestMethod]
 		public void ReturnTrue()
 		{
-			Assert.Equals(2, 1);
+			Assert.Equals(2, 2);
 		}
 	}
 }
