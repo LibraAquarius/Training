@@ -24,7 +24,7 @@ namespace Training.Account
 
         private bool HasPassword(ApplicationUserManager manager)
         {
-            return manager.HasPassword(User.Identity.GetUserId());
+            return manager.HasPassword(User.Identity.GetUserId()
         }
 
         protected void Page_Load(object sender, EventArgs e)
