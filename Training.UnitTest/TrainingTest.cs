@@ -15,7 +15,7 @@ namespace Training.UnitTest
 		[TestMethod]
 		public void ReturnFalse()
 		{
-			Assert.AreNotEqual(2, 2);
+			Assert.AreNotEqual(2, 12);
 		}
 	}
 }
